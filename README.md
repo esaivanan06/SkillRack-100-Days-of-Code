@@ -1,14 +1,15 @@
 
 # SkillRack 100 Days of Code 🚀
 
-A personal coding challenge focused on consistency, problem-solving, and improving programming skills through daily practice on SkillRack.
+A 100-day coding challenge dedicated to consistency, logical thinking, and problem-solving through daily practice on SkillRack.
 
 ## 🎯 Objectives
 
 - Solve the SkillRack Daily Challenge (DC) every day.
 - Complete the SkillRack Daily Test (DT) every day.
-- Upload solutions to GitHub to maintain a consistent coding record.
-- Improve logical thinking, programming proficiency, and problem-solving skills.
+- Maintain screenshots of problem descriptions for reference.
+- Upload problem screenshots and corresponding code solutions to GitHub.
+- Build consistent coding habits and strengthen programming fundamentals.
 
 ## 📅 Challenge Details
 
@@ -20,29 +21,31 @@ A personal coding challenge focused on consistency, problem-solving, and improvi
 
 ## 📂 Repository Structure
 
-Each day's solutions are organized into a separate folder.
+Each day's work is organized into separate folders for the Daily Challenge and Daily Test. Each folder contains a screenshot of the problem description and its corresponding solution.
 
 ```text
-SkillRack-100-Days-of-Code/
-├── Day-016/
-│   ├── Daily-Challenge.c
-│   └── Daily-Test.c
-├── Day-017/
-│   ├── Daily-Challenge.c
-│   └── Daily-Test.c
-└── ...
+Day-016/
+├── Daily-Challenge/
+│   ├── problem.png
+│   └── solution.c
+└── Daily-Test/
+    ├── problem.png
+    └── solution.c
 ```
 
-## 💻 What You'll Find Here
+The same structure is followed for subsequent days.
 
-- Daily Challenge solutions
-- Daily Test solutions
-- Programming practice and problem-solving approaches
-- A record of my progress throughout the challenge
+## 💻 What's Included?
 
-## 📈 Commitment
+- SkillRack Daily Challenge solutions
+- SkillRack Daily Test solutions
+- Screenshots of problem descriptions
+- Source code for each problem
+- An organized record of daily coding practice
 
-Consistency over perfection. This repository documents my effort to solve problems daily, strengthen my fundamentals, and develop better coding habits.
+## 📌 Purpose
+
+This repository documents my 100-day journey of consistent coding practice, with a focus on improving problem-solving skills, strengthening programming fundamentals, and maintaining a public record of progress.
 
 ## 👨‍💻 Author
 
@@ -54,4 +57,4 @@ B.Tech Information Technology Student
 
 ---
 
-*Learning every day. Coding every day. Improving every day.*
+*One problem at a time. One day at a time.*
