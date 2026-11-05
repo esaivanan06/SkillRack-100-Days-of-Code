@@ -1,27 +1,26 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int main(){
-    int m, n, t;
-    scanf("%d%d", &m, &n);
-    for(int i=0; i<n; i++){
-        scanf("%d", &t);
-        printf("%d ", t);
+int main()
+{
+    char s[100];
+    scanf("%s", s);
+    int l = strlen(s), m = l / 2;
+    for (int i = 0, j = m; i < m; i++, j--)
+    {
+        printf("%c", s[i]);
+        for (int k = 1; k < j; k++)
+            printf("*");
+        printf("%c\n", s[l - i - 1]);
     }
-    printf("\n");
-    for(int i=1; i<m-1; i++){
-        scanf("%d", &t);
-        printf("%d ", t);
-        for(int j=1; j<n-1; j++){
-            scanf("%d", &t);
-            printf("* ");
-        }
-        scanf("%d", &t);
-        printf("%d\n", t);
-    }
-    for(int j=0; j<n; j++){
-        scanf("%d", &t);
-        printf("%d ", t);
+    printf("%c\n", s[m]);
+    for (int i = m - 1, j = 0; i >= 0; i--, j++)
+    {
+        printf("%c", s[i]);
+        for (int k = 0; k < j; k++)
+            printf("*");
+        printf("%c\n", s[l - i - 1]);
     }
     return 0;
 }
